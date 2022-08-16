@@ -1,0 +1,56 @@
+html,
+body,
+#root,
+#root > div {
+  height: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  background: url("bg.png");
+  background-repeat: repeat;
+}
+.kg-modal {
+  width: 400px;
+  height: 400px;
+  z-index: 999999;
+  background: white;
+}
+.modal-backdrop {
+  background-color: none !important;
+}
+.modal---modal-content---3pwnC {
+  z-index: 999999;
+  position: absolute;
+}
+.modal-icon-minimize {
+  position: absolute;
+  top: 16px;
+  right: 57px;
+  padding: 0;
+  margin: 0;
+  line-height: 20px;
+  cursor: pointer;
+  border: 0;
+  -webkit-appearance: none;
+  text-shadow: none;
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+  outline: none;
+  width: 16px;
+  height: 16px;
+  opacity: 0.5;
+  color: black;
+}
+.modal-icon-minimize:hover {
+  font-weight: bold;
+}
+.modal---modal-body---2HFnG,
+.modal---padding---2ENnv,
+.modal---modal-footer---20LPi,
+.modal---padding---2ENnv {
+  z-index: 999999;
+}
+
+.modal---modal-body---2HFnG {
+  cursor: auto !important;
+}
